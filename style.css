@@ -6,15 +6,19 @@
     flex-wrap: wrap;  
     align-items: center;
     justify-content: space-between;
-    margin: 10px; 
+    margin: 10px;
     background-color: #ECEFF1; 
  
  
 }
+#bloc_image #text_contact
+{
+    margin-top: auto; 
+}
 aside
 {
     width: 30%;
-    height: 1000px;
+    height: 1500px;
     background-color: #283593;
     display: flex; 
     flex-direction: column;
@@ -27,8 +31,7 @@ aside
 aside p 
 {
     margin-right: 50px;
-    margin-left: 50px; 
-    margin:auto;  
+    margin-left: 50px;   
 }
 aside h2
 {
@@ -165,7 +168,7 @@ td
 #loisir img
 {
     display: block; 
-    width: 70px; 
+    width: 100px; 
     height: auto; 
     margin-right: 20px; 
     margin: auto; 
