@@ -1,0 +1,263 @@
+
+
+#bloc_page
+{
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px; 
+    background-color: #ECEFF1; 
+ 
+ 
+}
+aside
+{
+    width: 30%;
+    height: 1000px;
+    background-color: #283593;
+    display: flex; 
+    flex-direction: column;
+    text-align: justify; 
+    color: white; 
+    margin-bottom:50px; 
+    box-shadow: 5px 5px 20px grey; 
+    border-radius: 30px; 
+}
+aside p 
+{
+    margin-right: 50px;
+    margin-left: 50px; 
+    margin:auto;  
+}
+aside h2
+{
+    color: #283593;
+    font-size: 30px;
+    text-align: center; 
+    background-color: #CFD8DC; 
+    width: 100%;
+}
+#bloc_image img
+{
+    display: block; 
+    margin: auto; 
+    margin-top: 10px; 
+    width: 200px; 
+    height: 210px; 
+    border-radius: 100px; 
+}
+#contenus
+{
+    width: 62%;
+    height: 1300px; 
+    color: #283593;
+    margin-right: 50px; 
+    text-align:center;
+    font-family: Trebuchet MS;  
+}
+#contenus h1
+{
+    text-align: center; 
+    color:#3F51B5;
+    font-size: 50px; 
+    margin-top: 0px;
+    margin-bottom: 0px;  
+
+}
+#tete p
+{
+    margin-top: 0px;
+    margin-bottom: 100px; 
+    
+}
+#contenus h2
+{
+    color: #1A237E;
+    background-color: #E0E0E0; 
+    width: auto;    
+}
+#contenus img[src="image/work-v2.svg"], img[src="image/pen.svg"], img[src="image/Student.svg"]
+{
+    width: 20px;  
+    align-items: center; 
+    margin: auto; 
+    height: auto; 
+    margin-right: 30px; 
+    background-image:#FFFFFF; 
+}
+#contenus img[src="image/Student.svg"]
+{
+    width: 30px; 
+    margin-right: 10px;
+}
+#mon_experience
+{
+    height: 500px; 
+    align-items: center; 
+    margin:auto; 
+   
+}
+#liste h4
+{
+    font-family: Trebuchet MS;
+    margin: 0px; 
+    padding: 0px;
+     
+}
+#liste table
+{
+    padding-left: 20px; 
+    text-align: center; 
+    align-items:center;
+    margin: auto; 
+    border-collapse: collapse;  
+}
+td
+{
+    width: 400px;
+    margin-top: 0px; 
+    border-top: 1px solid #1A237E;
+ 
+
+}
+#date p 
+{
+    margin-bottom: 5px; 
+    padding: 0px; 
+}
+
+#contenus p 
+{
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+#mes_competences
+{
+    font-family: TREBUCHET MS;   
+}
+#mes_competences h2 
+{
+    margin-top: 20px; 
+}
+#mes_competences li
+{
+    margin-top: 10px;
+
+}
+#pre img
+{ 
+    width: 60px;
+    height: 60px; 
+    margin: auto; 
+    margin-right: 30px; 
+     
+}
+#pre
+{
+    width: 500px; 
+    height: auto; 
+    margin: auto;  
+    display:flex;
+    align-items: center;
+    
+}
+#loisir img
+{
+    display: block; 
+    width: 70px; 
+    height: auto; 
+    margin-right: 20px; 
+    margin: auto; 
+}
+#loisir
+{
+    display: flex; 
+    align-items: center; 
+    margin: auto; 
+    margin-bottom: 30px;  
+}
+#reseau img
+{
+    width: 30px;
+    height: auto;
+    display: flex;
+    margin-right: 20px; 
+     
+}
+#reseau
+{
+    display: flex; 
+    align-items:center; 
+    width: 60px; 
+    margin: auto;
+    
+    padding: 10px; 
+     
+
+}
+footer 
+{ 
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items :center;
+    height: 150px;
+    width: 100%;  
+    background-color: #283593;
+    text-align: center;
+
+}
+footer p 
+{
+    color: #E0E0E0;
+    font-size: 11px;  
+}
+@media screen and (max-width: 1280px)
+{
+    #bloc_page
+    {
+        display:flex;
+    }
+    #bloc_page h1
+    {
+        margin-top: 20px; 
+    }
+    aside 
+    {
+        width: 80%;
+        min-width: 10%; 
+        background-color: #283593; 
+        height: 80%;
+        margin: auto;
+        border-radius: 10px; 
+    }
+    aside p
+    {
+        color: grey;
+    }
+    #bloc_image img 
+    {
+        border-radius: 20px; 
+    }
+    #contenus
+    {
+        width: auto; 
+        margin: auto; 
+    }
+    #pre img 
+    {
+        display: block; 
+    }
+    #pre
+    {
+        display:flex; 
+        flex-wrap: wrap;
+        height: auto; 
+
+    }
+    td
+    {
+        width: auto;
+    }
+
+}
